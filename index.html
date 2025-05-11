@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra Memory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gra Memory</h1>
+        <div class="game-info">
+            <div class="moves">Ruchy: <span id="moves-count">0</span></div>
+            <div class="timer">Czas: <span id="time">00:00</span></div>
+        </div>
+        <div class="game-container">
+            <div class="game-board" id="game-board"></div>
+        </div>
+        <button id="restart" onclick="restartGame()">Zacznij od nowa</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
