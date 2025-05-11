@@ -16,4 +16,4 @@ A classic card-flipping memory game built with HTML, CSS, and JavaScript.
 - JavaScript
 
 ## 🛠 Status
-✅ Finished – ready to deploy!
+❌ Not Finished – doesn't work properly :(
